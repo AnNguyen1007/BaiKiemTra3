@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    tools:context=".TiengThai"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:text="TIẾNG THÁI"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:text="Nhập ví dụ"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:id="@+id/tl_1"
+        android:layout_height="60dp"/>
+
+    <Button
+        android:id="@+id/bt_push"
+        android:layout_width="100dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="155dp"
+        android:background="@drawable/radius"
+        android:text="push"
+        android:layout_height="60dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/txtketqua"
+            android:layout_width="wrap_content"
+            android:text="Các ví dụ:"
+            android:layout_marginLeft="40dp"
+            android:textSize="25dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="200dp"
+            android:textSize="25dp"
+            android:id="@+id/tv_kq"
+            android:layout_height="30dp"/>
+        <ListView
+            android:layout_width="match_parent"
+            android:id="@+id/lvvd"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+</LinearLayout>
