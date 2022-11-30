@@ -11,8 +11,10 @@ public class DuLieu {
                 '}';
     }
 
-    public DuLieu(String id, String vidu) {
-        this.id = id;
+    public DuLieu() {
+    }
+
+    public DuLieu(String vidu) {
         this.vidu = vidu;
     }
 

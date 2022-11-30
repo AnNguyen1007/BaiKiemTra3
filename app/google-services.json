@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "825186066662",
+    "firebase_url": "https://cacloaingonngu-default-rtdb.firebaseio.com",
+    "project_id": "cacloaingonngu",
+    "storage_bucket": "cacloaingonngu.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:825186066662:android:2345f6477e179d5f28db27",
+        "android_client_info": {
+          "package_name": "com.example.app_tieng"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "825186066662-qf2gnkm9f0rc93khj1u16ohq6pdi859g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJXVSZN-i2TkhQWKBmvKVizbdwwncfV8A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "825186066662-qf2gnkm9f0rc93khj1u16ohq6pdi859g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

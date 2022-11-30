@@ -25,11 +25,12 @@
         android:textStyle="bold"
 
         android:layout_height="wrap_content"/>
+
     <EditText
-        android:layout_width="300dp"
-        android:layout_gravity="center"
         android:id="@+id/tl_1"
-        android:layout_height="60dp"/>
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center" />
 
     <Button
         android:id="@+id/bt_push"
